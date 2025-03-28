@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements Example</title>
+    <style>
+        button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Pineapple</li>
+    </ol>
+    
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Sample Image from Pexels" width="600">
+    
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Loal Hoth</td>
+                <td>123 Mabile</td>
+                <td>+21191360760</td>
+                <td>hoth77@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nyuon Stephen</td>
+                <td>456 Ghap</td>
+                <td>+211987654321</td>
+                <td>steve21@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Kuol</td>
+                <td>789 Kakuma</td>
+                <td>0722334455</td>
+                <td>kuol90@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Tap Johnson</td>
+                <td>321 Kampala</td>
+                <td>+256714567682</td>
+                <td>tapj33@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Lony Men</td>
+                <td>555 Eldi</td>
+                <td>0766778899</td>
+                <td>lony7@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter at least 8 characters" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Dropdown -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Choose...</option>
+            <option value="South Sudan">South Sudan</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Uganda">Uganda</option>
+        </select><br><br>
+        
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests[]" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests[]" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests[]" value="reading">
+        <label for="reading">Reading</label><br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+    
+    <!-- Multimedia Elements -->
+    <h2>Audio and Video</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    
+    <video controls width="600">
+        <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+</body>
+</html>
